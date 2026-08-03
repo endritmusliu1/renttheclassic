@@ -1,0 +1,38 @@
+.admin-nav-links {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.admin-nav-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.admin-nav-links a:hover,
+.admin-nav-links a.active {
+  color: #dbf549;
+}
+
+.bookings-error {
+  color: #d93838;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}
+
+.status-confirmed {
+  background: #1e3a2a;
+  color: #7ddea0;
+}
+
+.status-cancelled {
+  background: #3a1e1e;
+  color: #e08a8a;
+}

@@ -1,0 +1,81 @@
+.featured-cars{
+    
+    padding-top: 35px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    width: 100%;
+    background: rgba(12, 12, 12, 0.12);
+     backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+}
+.featured-header{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.status-message {
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.status-message.error {
+    color: #ff4d4d;
+}
+.cars-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 20px;
+    padding: 20px;
+}
+.car-card{
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+.image-container{
+    width: 100%;
+    height: 320px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.car-info{
+    padding: 20px;
+    text-align: center;
+}
+.car-info h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.car-info p{
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.price{
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-footer{
+    padding: 0 20px 20px 20px;
+}
+.card-footer button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0b2b1b;
+    font-size: 16px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.card-footer button:hover{
+    opacity: 0.8;
+}
